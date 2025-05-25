@@ -1,3 +1,5 @@
+WS04 page layout harjoituksia 
+verkkosivum
 <!DOCTYPE html>
 >
 <head>
@@ -5,8 +7,7 @@
 </head>
 <body>
 <h1>Pelicans Fanisivu</h1>
-<p>Tällä sivulla on tietoa Pelicansista</p>
-<img src="https://upload.wikimedia.org/wikipedia/fi/4/42/Pelicans_logo.svg" alt="Pelicans logo" width="200" height="200">
+<p>Tällä sivulla on tietoa Pelicansista 
 </html
 ></body>
 <html>
@@ -15,47 +16,16 @@
 <li>Kuntosali</li> 
 <li>Potkunyrkkeily</li>
 <li>Lukeminen</li>
-</ol>
-
-<h2>Legendaarisimmat pelaajat</h2>
-<ol>Kari Eloranta</ol>
-<ol>Jan Latvala</ol>
-<ol>Pasi Nurminen</ol>
-
-<a href="https://www.pelicans.fi">Pelicansin virallinen sivusto</a>
+<a href="https://www.laurea.fi">Visit Laurea</a>
 <h1 style="color: rgb(230, 230, 230);">Historia
-<p>Pelicans on suomalainen jääkiekkojoukkue, joka perustettiin vuonna 1992 Lahdessa. Joukkue pelaa Liigassa ja on tunnettu sinivalkoisista väreistään. Pelicansin kotiottelut pelataan Lahden Isku Areenalla.</p>
-
 </h1>
-<table> 
-<tr>
-<th>Nimi</th>
-<th>Syntymäaika</th>
-</tr>
-<tr>
-<td>Row 1, Cell 1</td>
-<td>Row 1, Cell 2</td>
-</tr>
-<tr>
-<td>Row 2, Cell 1</td>
-<td>Row 2, Cell 2</td>
-</tr>
-</table>
-
-<form>
-<label for="name">Nimi:</label>
-<input type="text" id="name" name="name" required>
-<label for="email">Sähköposti:</label>
-<input type="email" id="email" name="email" required>
-<input type="submit" value="Lähetä">
-</form>
-
+<p>Pelicans on suomalainen jääkiekkojoukkue, joka perustettiin vuonna 1992 Lahdessa. Joukkue pelaa Liigassa ja on tunnettu sinivalkoisista väreistään. Pelicansin kotiottelut pelataan Lahden Isku Areenalla.</p>
 <style
 
 <link rel="stylesheet" href="styles.css">
 
 h1 {
-color: rgb(222, 222, 226);
+color: blue;
 font-size: 40px;
 }>
 p {
@@ -223,3 +193,4 @@ CSS::after
     padding-left: 20px;
     margin: 20px 0;
 }
+
