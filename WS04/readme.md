@@ -95,7 +95,6 @@ input[type="submit"]:hover {
 <button class="transition-button">Hover Me</button> 
 
 <CSS:
-<style>
 
 .transition-button { 
     background-color: lightblue;
@@ -193,4 +192,66 @@ CSS::after
     padding-left: 20px;
     margin: 20px 0;
 }
+
+<div class="flex-container">
+<div class="box">Box 1</div>
+<div class="box">Box 2</div>
+<div class="box">Box 3</div>
+
+CSS:
+
+.Flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {  
+    backround-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+<div class="responsive-box">Resize the window to see the effect</div>
+
+CSS:
+
+.responsive-box {
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .responsive-box {
+        backround-color: lightseagreen;
+    }
+}
+
+@media (min-width: 601px) {
+    .responsive-box {
+        backround-color: lightcoral;
+    }
+}
+
+<header> 
+<h1>My Website</h1>
+<nav>
+<ul>
+<li><a href="#about">About</a><li>
+<li><a href="#services">Services</a></li>
+<li><a href="#contact"<Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+<section id="about">
+<h2>About M</h2>
+<p>This is a paragraph about me.</p>
+</section>
+</main>
+
+<footer>
+<p>Copyright 2025</p>
+</footer>
 
